@@ -1,9 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html",
-  './app/**/*.{js,ts,jsx,tsx,mdx}',
+module.exports = {
+  content: ['./index.html',
   './pages/**/*.{js,ts,jsx,tsx,mdx}',
-  './components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
@@ -15,8 +13,6 @@ export default {
         darkGray: 'hsl(var(--Dark-gray))',
         moderateCyanAplha: 'hsl(var(--Moderate-cyan)/0.7)',
         darkGrayAlpha: 'hsl(var(--Dark-gray)/0.7)'
-
-
       }
     },
   },

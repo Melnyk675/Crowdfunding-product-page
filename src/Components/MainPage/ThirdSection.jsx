@@ -1,5 +1,5 @@
 import { useGlobalContext } from "../../Context/Context";
-
+import { Article } from "./Article/Article";
 
 export const ThirdSection = () => {
 
@@ -23,7 +23,9 @@ export const ThirdSection = () => {
             </div>
 
             <div className='flex flex-col gap-6'>
-                
+            <Article articleData={bambooStand} />
+            <Article articleData={blackEditionStand} />
+            <Article articleData={mahoganySpecialEdition} />
             </div>
         </section>
     )

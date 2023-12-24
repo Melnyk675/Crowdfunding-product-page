@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import logo from '/public/images/logo.svg'
-import closeLogo from '/public/images/icon-close-menu.svg'
-import hamburger from '/public/images/icon-hamburger.svg'
+import logo from '/public/images/logo.svg';
+import closeLogo from '/public/images/icon-close-menu.svg';
+import hamburger from '/public/images/icon-hamburger.svg';
 
 export const Header = () => {
 

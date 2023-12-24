@@ -1,6 +1,7 @@
 import { FirstSection } from "./MainPage/FirstSection";
 import { SecondSection } from "./MainPage/SecondSection";
 import { ThirdSection } from "./MainPage/ThirdSection";
+import { Modal } from "./Modals/Modals";
 
 export const MainContent = () => {
 
@@ -12,6 +13,7 @@ export const MainContent = () => {
                     <SecondSection />
                     <ThirdSection />
                 </div>
+                <Modal />
             </main>
         </>
     )
