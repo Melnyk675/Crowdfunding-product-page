@@ -1,8 +1,7 @@
-
 import { createContext, useContext, useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 
-const context = createContext()
+const context = createContext();
 
 export const DataProvider = ({ children }) => {
 
@@ -33,9 +32,9 @@ export const DataProvider = ({ children }) => {
     </context.Provider>
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useGlobalContext = () => { return useContext(context) }
 
 DataProvider.propTypes = {
     children: PropTypes.object
 }
-

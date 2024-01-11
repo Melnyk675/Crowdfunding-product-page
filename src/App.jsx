@@ -1,15 +1,14 @@
-import '../pages/_app.js';
-import { Header } from './Components/Header/Header';
-import { MainContent } from './Components/Main';
+import Header from "./components/Header/Header";
+import MainContent from './components/MainContent'
 
-function Home() {
-
+function App() {
   return (
     <>
-      <Header />
-      <MainContent />
+    <Header/>
+    <MainContent/>
     </>
   )
 }
 
-export default Home;
+export default App
+
