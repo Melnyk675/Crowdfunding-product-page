@@ -5,7 +5,6 @@ const SecondSection = () => {
   const { totalCrowdfunding, progressBarValue, totalBacker } = useGlobalContext();
 
   return (
-    
     <section className='bg-white my-6 rounded-lg'>
     <div className=' text-center py-8 px-6 lg:px-12'>
         <div className="flex flex-col lg:flex-row items-center lg:text-left ">

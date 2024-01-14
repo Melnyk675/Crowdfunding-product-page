@@ -1,8 +1,17 @@
-# React + Vite
+# Crowdfunding-product-page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Users should be able to:
 
-Currently, two official plugins are available:
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+- Make a selection of which pledge to make
+- See an updated progress bar and total money raised based on their pledge total after confirming a pledge
+- See the number of total backers increment by one after confirming a pledge
+- Toggle whether or not the product is bookmarked
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built with
+
+- Tailwind CSS
+- React
+- Vite.js
+- Mobile-first workflow

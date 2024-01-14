@@ -4,7 +4,7 @@ import bookMark from '/images/icon-bookmark.svg';
 
 const FirstSection = () => {
 
-  const [marked, setMarked] = useState(false)
+  const [marked, setMarked] = useState(false);
 
   const isMarked = () => {
       setMarked(!marked)
@@ -21,10 +21,12 @@ const FirstSection = () => {
     </div>
       <div className='flex justify-between'>
         <button className='bg-moderateCyan hover:bg-darkCyan px-14 lg:px-12 py-2 rounded-[2rem] text-white font-bold'>Back this project</button>
-          <button className={`${!marked ? "bg-[#B1B1B1]" : "bg-moderateCyanAplha"} flex items-center rounded-[28px]`} 
+          <button className={`${!marked ? "bg-darkGrayAlpha" : "bg-moderateCyanAplha"} flex items-center rounded-[28px]`} 
             onClick={isMarked}>
-            <img src={bookMark} 
-             alt="bookmarkImg" />
+            <img 
+             src={bookMark} 
+             alt="bookmarkImg" 
+             className="hover:fill-darkCyan"/>
            <span className={`hidden lg:block px-5 font-bold ${!marked ? "text-[#2F2F2F]" : "text-darkCyan"}`}>{!marked ? "Bookmark" : "Bookmarked"}
           </span>
         </button>

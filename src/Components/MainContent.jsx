@@ -1,7 +1,7 @@
 import FirstSection from "./MainPage/FirstSection";
 import SecondSection from './MainPage/SecondSection';
 import ThirdSection from "./MainPage/ThirdSection";
-
+import Modal from "./Modals/Modals";
 
 const MainContent = () => {
 
@@ -12,6 +12,7 @@ const MainContent = () => {
        <SecondSection/>
        <ThirdSection/>
       </div>
+      <Modal />
     </main>
   )
 }

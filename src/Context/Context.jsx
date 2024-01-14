@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 
@@ -5,12 +6,12 @@ const context = createContext();
 
 export const DataProvider = ({ children }) => {
 
-    const [totalCrowdfunding, setTotalCrowdFunding] = useState(89914)
-    const [totalBacker, setTotalBacker] = useState(5007)
-    const [showthankModal, setShowThanksModal] = useState(false)
-    const [progressBarValue, setProgressBarValue] = useState(0)
-    const [checkedValue, setCheckedValue] = useState(null)
-    const [isPledgeOpen, setPldegeOpen] = useState(false)
+    const [totalCrowdfunding, setTotalCrowdFunding] = useState(89914);
+    const [totalBacker, setTotalBacker] = useState(5007);
+    const [showthankModal, setShowThanksModal] = useState(false);
+    const [progressBarValue, setProgressBarValue] = useState(0);
+    const [checkedValue, setCheckedValue] = useState(null);
+    const [isPledgeOpen, setPldegeOpen] = useState(false);
     const [pledgeLeftData, setpledgeLeftData] = useState({
         'bambooStand': { id: "bambooStand", countLeft: 101, pledgeValue: 25, pldegeCategory: "Bamboo Stand", pledgeDescription: "You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you'll be added to a special Backer member list.", pledgeAmountP: 'Pledge $25 or more' },
         'blackEditionStand': { id: "blackEditionStand", countLeft: 64, pledgeValue: 75, pldegeCategory: "Black Edition Stand", pledgeDescription: "You get a Black Special Edition computer stand and a personal thank you. You'll be added to our Backer member list. Shipping is included.", pledgeAmountP: "Pledge $75 or more" },
@@ -32,7 +33,6 @@ export const DataProvider = ({ children }) => {
     </context.Provider>
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const useGlobalContext = () => { return useContext(context) }
 
 DataProvider.propTypes = {
