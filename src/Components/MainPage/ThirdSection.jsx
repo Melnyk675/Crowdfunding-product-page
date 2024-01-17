@@ -7,7 +7,7 @@ const ThirdSection = () => {
 
   return (
     <section className='bg-white py-4 px-6 lg:px-12 rounded-lg'>
-      <div>
+      <div id="about">
         <h2 className='my-2 text-2xl font-bold'>About this project</h2>
           <p className='text-darkGray my-6 text-[0.96rem] tracking-tight lg:tracking-[0.5px] lg:text-base'>
           <span className='my-2 block'>

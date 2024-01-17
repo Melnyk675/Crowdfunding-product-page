@@ -27,9 +27,15 @@ const Header = () => {
             </button>
           <div className={`absolute top-0 pt-20 left-0 px-[5%] w-full h-screen z-[2] bg-gradient-to-b from-[#00000080] to-transparent ${showMenu ? "block" : "hidden"} lg:static lg:w-auto lg:h-auto lg:block lg:bg-none lg:ml-auto lg:p-0`}>
             <ul className='flex flex-col lg:flex-row lg:gap-3'>
-              <li className='list-none bg-white lg:bg-inherit lg:text-white cursor-pointer py-5 px-4 rounded-t-xl lg:p-0'><a href="" className='w-full no-underline block text-xl font-medium'>About</a></li>       
-              <li className='list-none bg-white lg:bg-inherit lg:text-white cursor-pointer py-5 px-4 lg:p-0'><a href="" className='w-full no-underline block text-xl font-medium'>Discover</a></li>       
-              <li className='list-none bg-white lg:bg-inherit lg:text-white cursor-pointer py-5 px-4 rounded-b-xl lg:p-0'><a href="" className='w-full no-underline block text-xl font-medium'>Get Started</a></li>          
+              <li className='list-none bg-white lg:bg-inherit lg:text-white cursor-pointer py-5 px-4 rounded-t-xl lg:p-0'>
+                <a href="#about" 
+                className='w-full no-underline block text-xl font-medium'>About</a></li>       
+              <li className='list-none bg-white lg:bg-inherit lg:text-white cursor-pointer py-5 px-4 lg:p-0'>
+                <a href="" 
+                className='w-full no-underline block text-xl font-medium'>Discover</a></li>       
+              <li className='list-none bg-white lg:bg-inherit lg:text-white cursor-pointer py-5 px-4 rounded-b-xl lg:p-0'>
+                <a href="" 
+                className='w-full no-underline block text-xl font-medium'>Get Started</a></li>          
             </ul>
           </div>
       </nav>

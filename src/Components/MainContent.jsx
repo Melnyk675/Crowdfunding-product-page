@@ -7,7 +7,7 @@ const MainContent = () => {
 
   return (
     <main className="lg:mt-[17rem] mt-[13rem] relative">
-      <div className='relative top-[-75px] w-[90%] lg:max-w-2xl mx-auto '>
+      <div className='relative top-[-75px] w-[90%] lg:max-w-2xl mx-auto'>
        <FirstSection/>
        <SecondSection/>
        <ThirdSection/>

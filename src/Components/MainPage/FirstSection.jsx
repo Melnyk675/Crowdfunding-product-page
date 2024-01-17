@@ -20,14 +20,14 @@ const FirstSection = () => {
           <p className='py-2 text-darkGray tracking-tight'>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
     </div>
       <div className='flex justify-between'>
-        <button className='bg-moderateCyan hover:bg-darkCyan px-14 lg:px-12 py-2 rounded-[2rem] text-white font-bold'>Back this project</button>
-          <button className={`${!marked ? "bg-darkGrayAlpha" : "bg-moderateCyanAplha"} flex items-center rounded-[28px]`} 
+        <button className='bg-moderateCyan hover:bg-darkCyan px-10 lg:px-12 py-2 rounded-[33.5px] text-white font-bold'>Back this project</button>
+          <button className={`${!marked ? "bg-lightGray" : "bg-lightGray"} flex items-center rounded-[28px]`} 
             onClick={isMarked}>
             <img 
              src={bookMark} 
              alt="bookmarkImg" 
-             className="hover:fill-darkCyan"/>
-           <span className={`hidden lg:block px-5 font-bold ${!marked ? "text-[#2F2F2F]" : "text-darkCyan"}`}>{!marked ? "Bookmark" : "Bookmarked"}
+             />
+           <span className={`hidden lg:block px-6 font-bold ${!marked ? "text-[#2F2F2F]" : "text-darkCyan lg:px-4"}`}>{!marked ? "Bookmark" : "Bookmarked"}
           </span>
         </button>
       </div>

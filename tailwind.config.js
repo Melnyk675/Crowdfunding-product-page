@@ -11,6 +11,7 @@ export default {
         darkCyan: 'hsl(var(--Dark-cyan))',
         black: 'hsl(var(--Black))',
         darkGray: 'hsl(var(--Dark-gray))',
+        lightGray: 'hsla(0, 0%, 48%, .05)',
         moderateCyanAplha: 'hsl(var(--Moderate-cyan)/0.7)',
         darkGrayAlpha: 'hsl(var(--Dark-gray)/0.7)'
       }

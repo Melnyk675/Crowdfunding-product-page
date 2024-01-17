@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PropTypes from 'prop-types';
-import { useGlobalContext } from '../../context/Context';
+import PropTypes from "prop-types";
+import { useGlobalContext } from "../../context/Context";
 
 const Form = ({ value }) => {
 
@@ -24,17 +24,21 @@ const Form = ({ value }) => {
 
     return (
         <>
-            <form className="flex flex-nowrap gap-4 justify-around mb-4 sm:m-0" 
+            <form 
+            className="flex flex-nowrap gap-4 justify-around mb-4 sm:m-0" 
              onSubmit={sumbitPledgeForm}>
                 <div className="relative w-6/12 sm:w-[8rem]">
                     <p className="absolute left-7 top-4 text-darkGray">$</p>
-                    <input type="number" 
-                    name="Input" id="" 
+                    <input 
+                    type="number" 
+                    name="Input" 
+                    id="input" 
                     value={initialInputValue} 
                     onChange={changeInputValue} 
                     className="border-darkGray pl-10 pr-6 py-4 border-2 w-full h-full rounded-full focus:outline-none focus:border-moderateCyan" />
                 </div>
-                <button type="submit" 
+                <button 
+                type="submit" 
                 className="bg-moderateCyan text-white px-4 py-4 rounded-full w-6/12 sm:w-[8rem]" 
                 disabled={initialInputValue >= value ? false : true}>Continue</button>
             </form>

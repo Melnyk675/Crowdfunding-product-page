@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import MainContent from './components/MainContent'
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
@@ -10,5 +10,5 @@ function App() {
   )
 }
 
-export default App
+export default App;
 
