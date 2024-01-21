@@ -26,7 +26,7 @@ const Form = ({ value }) => {
         <>
             <form 
             className="flex flex-nowrap gap-4 justify-around mb-4 sm:m-0" 
-             onSubmit={sumbitPledgeForm}>
+            onSubmit={sumbitPledgeForm}>
                 <div className="relative w-6/12 sm:w-[8rem]">
                     <p className="absolute left-7 top-4 text-darkGray">$</p>
                     <input 

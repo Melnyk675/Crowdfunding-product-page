@@ -16,8 +16,8 @@ const PledgeModalCompo = ({ checkSelectedValue, pledgeData, checkedValue }) => {
                         checked={checkedValue == pledgeData.pledgeValue} 
                         value={pledgeData.pledgeValue} 
                         onChange={checkSelectedValue} 
-                        className={`mt-3 sm:mt-0 h-6 w-6 appearance-none align-middle relative border-2 border-inherit rounded-full  after:content-[''] after:absolute after:hidden after:top-[4px] after:left-[4px] after:rounded-full after:border-[6px] after:border-moderateCyan checked:after:block ${pledgeData.countLeft == 0 ? "hover:border-inherit cursor-not-allowed" : "hover:border-moderateCyan cursor-pointer"}`} />
-                        <div className="sm:flex sm:gap-4 sm:items-start sm:ml-3">
+                        className={`mt-3 sm:mt-0 h-6 w-6 appearance-none align-middle relative border-2 border-inherit rounded-full after:content-[''] after:absolute after:hidden after:top-[4px] after:left-[4px] after:rounded-full after:border-[6px] after:border-moderateCyan checked:after:block ${pledgeData.countLeft == 0 ? "hover:border-inherit cursor-not-allowed" : "hover:border-moderateCyan cursor-pointer"}`} />
+                    <div className="sm:flex sm:gap-4 sm:items-start sm:ml-3">
                             <label 
                             htmlFor={pledgeData.id} 
                             className={`text-[0.9rem] font-semibold ${pledgeData.countLeft == 0 ? "hover:text-inherit cursor-not-allowed" : "hover:text-moderateCyan cursor-pointer"}`}>{pledgeData?.pldegeCategory}</label>

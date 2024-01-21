@@ -9,7 +9,7 @@ const ThirdSection = () => {
     <section className='bg-white py-4 px-6 lg:px-12 rounded-lg'>
       <div id="about">
         <h2 className='my-2 text-2xl font-bold'>About this project</h2>
-          <p className='text-darkGray my-6 text-[0.96rem] tracking-tight lg:tracking-[0.5px] lg:text-base'>
+          <p className='text-darkGray my-6 text-[16px] tracking-tight lg:tracking-normal lg:text-base/8'>
           <span className='my-2 block'>
               The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen
               to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve
