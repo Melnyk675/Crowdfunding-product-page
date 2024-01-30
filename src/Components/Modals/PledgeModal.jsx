@@ -16,6 +16,7 @@ const PledgeModal = () => {
     <div className={`${isPledgeOpen ? "block" : "hidden"} fixed top-0 left-0 w-full h-full overflow-auto bg-[#00000066] grid place-items-center`}>
     <section className="bg-white px-6 py-6 lg:py-10 mt-[7rem] rounded-xl lg:max-w-2xl w-[90%]">
         <div className="flex justify-between mt-2 mb-4">
+        <span className="font-bold">Back this project</span>
           <button className="" 
            onClick={pledgemodalFunBtn}>
             <img 
